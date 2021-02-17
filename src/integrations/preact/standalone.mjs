@@ -10,7 +10,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+import 'preact/debug';
 import { h, Component, createContext, render } from 'preact';
 import { useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary } from 'preact/hooks';
 import htm from '../../index.mjs';
